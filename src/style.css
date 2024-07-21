@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow: hidden;
+}
+
+.menuNav {
+  background-color: rgb(23, 66, 159);
+  height: 100vh;
+  width: -moz-max-content;
+  width: max-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.menuNav ul {
+  display: flex;
+  flex-direction: column;
+}
+.menuNav ul .menuItem {
+  list-style: none;
+  padding: 30px 15px 30px 15px;
+  transition: 0.5s ease-in-out;
+}
+.menuNav ul .menuItem a {
+  text-decoration: none;
+  color: white;
+}
+.menuNav ul .menuItem a .svgIcon {
+  width: 30px;
+  height: 30px;
+  fill: white;
+}/*# sourceMappingURL=style.css.map */
